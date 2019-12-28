@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>春花秋月夜</title>
+    <title>给你的诗_春花秋月夜</title>
 </head>
 <style>
     * {
@@ -15,7 +15,6 @@
     
     .content {
         margin: 1vh auto;
-        background: pink;
         width: 60vw;
         text-align: center;
         line-height: 2rem;
@@ -24,9 +23,11 @@
     @keyframes myfisrt {
         from {
             opacity: 0;
+            color: gray;
         }
         to {
             opacity: 100;
+            color: white;
         }
     }
     
@@ -34,10 +35,17 @@
     p {
         animation: myfisrt 2s infinite;
     }
+    
+    body {
+        background: url(images/01.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
 </style>
 
 <body>
     <div class="content">
+        <audio src="wav/young.mp3" autoplay="autoplay"></audio>
         <h2>春江花月夜</h2>
         <!-- <p> 年代：【唐】 作者：【张若虚】 体裁：【乐府】 -->
         <p>春江潮水连海平，海上明月共潮生。</p>
